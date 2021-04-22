@@ -1,0 +1,269 @@
+@import 'fonts';
+@import 'vars';
+@import 'media-queries';
+
+$fondo: white; 
+
+body{
+    background: $fondo;
+    margin: 0;
+    padding: 0;
+}
+
+///    top bar  INICIO  ///
+.container-fluid{
+    background: #353f46;
+    padding: 30px;
+    opacity: 80%;
+}
+
+.top-bar{
+    color: white;
+    font-family: 'NotoBold';
+}
+
+.top-nav-title{
+    color: white;
+    font-size: 30px;
+    margin: 0 0 0 150px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.top-nav{
+    float: right;
+    margin: 0 200px 0 0;
+}
+
+.top-nav-item{
+    font-size: 14px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.top-nav-item:hover{
+    border: 5px;
+    color: #4bcaff;
+    border: #4bcaff 2px solid;
+    padding: 5px;
+}
+///    top bar  FIN  ///
+
+
+///    texto h1  INICIO  ///
+
+.h1-fondo{
+text-align: center;
+background: url(../imgs/header.jpg);
+padding: 300px;
+}
+
+h1,h2{
+    background: #515f67;
+    padding: 5px 10px;
+    display: inline-block;
+    color: white;
+    font-family: 'NotoLight';
+    font-size: 42px;
+}
+
+///    texto h1  FIN  ///
+
+
+///    texto Services  INICIO  ///
+
+.services-part{
+    color: white;
+    background-color: #4bcaff;
+    font-size: 30px;
+    font-family: 'NotoLight';
+    
+    padding: 40px 400px;
+}
+
+.title-service{
+    &:after{
+        content:'';
+        display: block;
+        width: 1.5em;
+        padding-top: .05em;
+        border-bottom: 2px solid white;
+    }
+}
+
+.logos{
+    padding: 5px;
+}
+
+.titles{
+    font-size: 24px;
+    font-family: 'NotoRegular';
+
+    padding: 5px;
+}
+
+.description{
+    font-size: 12px;
+    font-family: 'NotoRegular';
+    padding: 5px;
+
+}
+
+
+///    texto Services  FIN  ///
+
+///    texto PORTAFOLIO  INICIO  ///
+
+.phothos-bar{
+    padding: 30px;
+    color: #515f67;
+    
+}
+
+.portafolio{
+    font-family: 'NotoLight';
+    font-size: 30px;
+    display: inline-block;
+    margin: 0 0 0 19%;
+
+    &:after{
+        content:'';
+        display: block;
+        width: 1.5em;
+        padding-top: .05em;
+        border-bottom: 2px solid #515f67;
+    }
+}
+
+.portafolio-section{
+    display: inline-block;
+    float: right;
+
+    margin: 0 19% 0 0;
+
+}
+
+.portafolio-section-item {
+    font-family: 'NotoBold';
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.portafolio-section-item:hover{
+    text-decoration: none;
+    border: 5px;
+    color: #4bcaff;
+    border: #4bcaff 2px solid;
+    padding: 5px;
+}
+
+///    texto PORTAFOLIO  FIN  ///
+
+
+///    texto FOTOS PORTAFOLIO  inicio  ///
+
+
+.fotos-juntas{
+    padding: 0 20% 2% 20%;
+}
+
+.imagenes{
+ margin: 10px 0;
+ overflow: hidden;
+ position: relative;
+}
+
+.imagenes .imgs{
+    object-fit: cover;
+}
+
+.mas{
+    width: 100%;
+    color: white;
+    font-size: 50px
+}
+
+.imagenes .hover{
+    width: 0%;
+    height: 100%;
+    opacity: 80%;
+    background-color: #515f67;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    transition: 0.2s all;
+    text-align: center;
+
+}
+
+.imagenes:hover .hover{
+    width: 93%;
+}
+
+
+///    texto FOTOS PORTAFOLIO  FIN  ///
+
+
+
+///    texto Defoult Section FIN  ///
+
+.defaul-back{
+    background-color: #515f67;
+    color: white;
+    padding: 2% 20%;
+}
+
+.title-defoult-section{
+    font-size: 30px;
+    font-family: 'NotoLight';
+
+    &:after{
+        content:'';
+        display: block;
+        width: 1.5em;
+        padding-top: .05em;
+        border-bottom: 2px solid white;
+    }
+}
+
+.defaultsection-p1{
+    font-size: 14px;
+    font-family: 'NotoRegular';
+    padding: 40px 20px 20px 0;
+}
+
+.defaultsection-p2{
+    font-size: 14px;
+    font-family: 'NotoRegular';
+    padding: 0 20px 20px 0;
+}
+
+
+.button-visitMe{
+    font-family: 'NotoBold';
+    font-size: 14px;
+    color: #353f46;
+
+    background-color: #515f67;
+    border: 2px solid #353f46;
+
+    padding: 8px 30px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+///    texto Defoult Section  FIN  ///
+
+
+
+///    texto Twiter  Section  FIN  ///
+
+.twitter-section{
+
+}
+
+///    texto Twiter Section  FIN  ///
+

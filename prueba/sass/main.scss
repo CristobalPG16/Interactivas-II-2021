@@ -1,0 +1,26 @@
+@import 'media-queries';
+
+$fondo: #000; 
+$title: #fff;
+
+body{
+    background: $fondo;
+    @include respond-to($phone){
+        background: white;
+    }
+
+}
+
+h1{
+    color: $title;
+}
+
+.col-3{
+    background: red;
+    color: white;
+}
+
+.col-sm-3{
+    background: red;
+    color: white;
+}

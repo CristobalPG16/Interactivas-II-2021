@@ -1,0 +1,22 @@
+body {
+  background: #000;
+}
+@media only screen and (max-width: 480px) {
+  body {
+    background: white;
+  }
+}
+
+h1 {
+  color: #fff;
+}
+
+.col-3 {
+  background: red;
+  color: white;
+}
+
+.col-sm-3 {
+  background: red;
+  color: white;
+}
