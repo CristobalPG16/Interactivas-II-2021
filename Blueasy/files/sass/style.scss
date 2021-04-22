@@ -11,6 +11,11 @@ body{
 }
 
 ///    top bar  INICIO  ///
+
+.E{
+color: #4bcaff;
+}
+
 .container-fluid{
     background: #353f46;
     padding: 30px;
@@ -28,6 +33,11 @@ body{
     margin: 0 0 0 150px;
     text-decoration: none;
     display: inline-block;
+}
+
+.top-nav-title:hover{
+    color: #4bcaff;
+
 }
 
 .top-nav{
@@ -262,8 +272,145 @@ h1,h2{
 ///    texto Twiter  Section  FIN  ///
 
 .twitter-section{
-
+    background: #4bcaff;
+    color: white;
+    padding: 2% 20%;
 }
+.twiter{
+    font-size: 30px;
+    font-family: 'NotoLight';
+
+    &:after{
+        content:'';
+        display: block;
+        width: 1.5em;
+        padding-top: .05em;
+        border-bottom: 2px solid white;
+    }
+}
+
+.twiter-text{
+    font-size: 25px;
+    font-family: 'NotoLight';
+    margin: 30px 0 20px 0;
+}
+
+.chessecake{
+    font-size: 25px;
+    font-family: 'NotoRegular'
+}
+
 
 ///    texto Twiter Section  FIN  ///
 
+
+
+///    texto Who is  Section  Inicio  ///
+.who-row{
+    background: url(../imgs/camera.jpg);
+    background-size: cover; 
+    background-position: right bottom; 
+
+
+    color: white;
+    padding: 5% 20%;
+}
+
+.title-who{
+    font-size: 30px;
+    font-family: 'NotoLight';
+
+    &:after{
+        content:'';
+        display: block;
+        width: 1.5em;
+        padding-top: .05em;
+        border-bottom: 2px solid white;
+    }
+
+    margin: 0 0 30px 0;
+}
+
+.text-who{
+    font-size: 14px;
+    font-family: 'NotoRegular';
+    margin: 10px 0;
+}
+
+.logos-who{
+
+    border: 2px solid white;
+
+    padding: 20px;
+    text-align: center;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+///    texto Who is  Section  FIN  ///
+
+
+
+///    texto Who is  Testimonios  Inicio  ///
+
+
+.testi-row{
+    background: white;
+
+    color: #515f67;
+    padding: 5% 20%;
+}
+
+.comillas{
+    font-size: 30px;
+    font-family: 'NotoBold';
+}
+
+.testi-title{
+    font-size: 30px;
+    font-family: 'NotoLight';
+
+    &:after{
+        content:'';
+        display: block;
+        width: 1.5em;
+        padding-top: .05em;
+        border-bottom: 2px solid #515f67;
+    }
+
+    margin: 0 0 30px 0;
+}
+
+.testi-text{
+    font-size: 25px;
+    font-family: 'NotoLight';
+}
+
+.signature{
+    font-size: 14px;
+    font-family: 'NotoBold';
+    color: #4bcaff;
+    padding: 20px 10px;
+}
+
+
+///    texto Who is  Testimonios  FIN  ///
+
+
+
+///    texto Contacto is  Testimonios  Inicio  ///
+
+
+.contacto-zone{
+    background: url(../imgs/contact.jpg);
+    background-size: cover; 
+    background-position: right bottom; 
+
+
+    color: white;
+    padding: 5% 20%;
+}
+
+
+
+///    texto Contacto is  Testimonios  FIN  ///
