@@ -10,6 +10,7 @@ body{
     padding: 0;
 }
 
+
 ///    top bar  INICIO  ///
 
 .E{
@@ -89,6 +90,7 @@ h1,h2{
     font-family: 'NotoLight';
     
     padding: 40px 400px;
+    margin: 0;
 }
 
 .title-service{
@@ -123,6 +125,10 @@ h1,h2{
 ///    texto Services  FIN  ///
 
 ///    texto PORTAFOLIO  INICIO  ///
+
+.portafolio-div{
+    margin: 0;
+}
 
 .phothos-bar{
     padding: 30px;
@@ -176,6 +182,7 @@ h1,h2{
 
 .fotos-juntas{
     padding: 0 20% 2% 20%;
+    margin: 0;
 }
 
 .imagenes{
@@ -222,6 +229,7 @@ h1,h2{
     background-color: #515f67;
     color: white;
     padding: 2% 20%;
+    margin: 0;
 }
 
 .title-defoult-section{
@@ -275,6 +283,7 @@ h1,h2{
     background: #4bcaff;
     color: white;
     padding: 2% 20%;
+    margin: 0;
 }
 .twiter{
     font-size: 30px;
@@ -314,6 +323,7 @@ h1,h2{
 
     color: white;
     padding: 5% 20%;
+    margin: 0;
 }
 
 .title-who{
@@ -359,6 +369,7 @@ h1,h2{
 
     color: #515f67;
     padding: 5% 20%;
+    margin: 0;
 }
 
 .comillas{
@@ -409,8 +420,96 @@ h1,h2{
 
     color: white;
     padding: 5% 20%;
+    margin: 0;
+}
+
+.Contact{
+    font-size: 30px;
+    font-family: 'NotoLight';
+
+    &:after{
+        content:'';
+        display: block;
+        width: 1.5em;
+        padding-top: .05em;
+        border-bottom: 2px solid white;
+    }
+
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+.contact-lines{
+    margin: 20px 0;
+    padding: 0;
+}
+
+.box{
+    background: transparent;
+    border: 2px solid white;
+    width: 80%;
+    height: 55%;
+
+}
+
+.box-message{
+    background: transparent;
+    border: 2px solid white;
+}
+
+.title-contact{
+    padding: 0;
+    font-size: 14px;
+    font-family: 'NotoBold';
+}
+
+.information-contact{
+    margin: 20px 0;
+    font-size: 14px;
+    font-family: 'NotoRegular';
+}
+
+.btn-mesagge{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'notobold';
+    background-color: #4bcaff;
+    border: none;
+    text-align: center;
+    width: 20%;
+    padding: 10px 20px;
+    margin-top: 10px;
 }
 
 
-
 ///    texto Contacto is  Testimonios  FIN  ///
+
+
+
+///    texto footer  INICIO  ///
+
+footer {
+    font-size: 12px;
+    font-family: 'NotoRegular';
+    color: #515f67;
+    padding: 2% 18%;
+    background-color: #353f47;
+}
+
+.options{
+    display: inline-block;
+}
+
+.link-footer{
+    color: #515f67;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+
+.link-footer:hover{
+    color:  #4bcaff;
+}
+
+
+///    texto footer  FIN  ///
